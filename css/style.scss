@@ -1,0 +1,253 @@
+ @import "../node_modules/bootstrap/scss/bootstrap";
+
+*,
+*::before,
+
+*::after{
+    margin: 0 ;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2,2rem ;
+}
+//-----------------------------navigation-----------------------------------
+header{
+    font-weight: 20;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    margin : 0 auto;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-apple{
+    margin-right: 60px;
+    margin:6px 6px;
+    margin-top: -1px;
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(../assets/applelogo.svg)center no-repeat ;
+}
+
+#search-bar{
+    margin:6px 6px;
+    margin-top: -1px;
+    width: 1.6rem;    
+    height: 4.4rem;
+    background: url(../assets/search.svg) center no-repeat;
+
+}
+#bag-bar{
+    margin:6px 6px;
+    margin-top: -1px;
+    display: flex;
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(../assets/bag.svg) center no-repeat;
+}
+
+// -----------------------------MOBILE VERSION-----------------------------------
+
+
+
+
+// ------------------------------END OF NAVIGATION----------------------------------
+
+
+// ------------------------------HERO SECTION----------------------------------
+
+
+// ------------------------------iPHONE 15 PRO ----------------------------------------------------------------
+.hero{
+    background-size: cover; 
+    background-size: 800px; 
+    height: 120.2rem;
+    background-size: auto 73.6rem;
+    border-top:.6rem solid #ffffff;
+    border-bottom: .6rem solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.iphone-15-Pro{
+    background: url(../pictures-large/hero_iphone15pro__large.jpeg);
+    background-repeat: no-repeat;
+    margin-top: 4.4rem;
+    background-position: center;
+    background-size: cover;
+    
+}
+.iphone-15-Pro{
+    border-top:none;
+}
+
+// ----------------------------iPhone 15 Pro-----------------------------------
+
+
+
+.iPhone-15{
+    background: url('../pictures-large/hero_iphone15_larger.jpeg');
+    background-position: center;
+}
+.iPhone-15-heading{
+    color: #000;
+}
+.iphone-15-subheading{
+    color: #000;
+}
+.iphone-15-title{
+    margin-top: 100px;
+}
+// -----------------------------Mac Book-----------------------------------
+.Macbook{
+    background: url('../pictures-large/hero_macbook_air_m3_larger.jpeg');
+    background-position: center;
+}
+.macbook-container{
+    margin-top : 100px; 
+
+    .macbook-title{
+        color: #000;
+    }
+    .macbook-subtitle{
+        color: #000;
+    }
+}
+
+// -----------------------------Mac Book-----------------------------------
+.title{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+.subheading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+// ----------------------------foooter------------------------------------
+footer {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 20px 0px;
+    text-align: start; 
+    justify-content:start;
+
+  }
+  
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-col {
+    flex-basis: 25%;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col li {
+    margin-bottom: 6px;
+  }
+  
+  .footer-col a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    color: #000;
+  }
+  
+
+  .footer-header{
+    font-size:13px;
+  }
+  footer{
+    padding:20px;
+    margin:20px;
+  }
+  
+.footer-box{
+    border-bottom: 1px solid gray;
+}
+// -----------phone footer --------------------------------
+.accordion{
+    display: none;
+}
+
+  @media screen and (max-width: 768px){
+    .accordion{
+        display: block;
+    }
+    .container-footer{
+        display: none;
+    }
+}

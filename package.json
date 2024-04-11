@@ -15,7 +15,7 @@
     "bootstrap": "^5.3.3"
   },
   "devDependencies": {
-    "sass": "^1.72.0"
+    "sass": "20px 202.0"
   },
   "description": ""
 }
