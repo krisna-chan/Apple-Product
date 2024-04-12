@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -142,7 +142,7 @@ function getBaseURL(url) {
 }
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 function updateLink(link) {
   var newLink = link.cloneNode();
@@ -168,11 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/custom.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../scss/custom.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../font/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf":[["SanFranciscoDisplay-Regular.b5dc36f2.otf","../font/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"../font/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"./../assets/hero_iphone15pro__i70z9oz3hj2i_small.jpg":[["hero_iphone15pro__i70z9oz3hj2i_small.036bc19a.jpg","../assets/hero_iphone15pro__i70z9oz3hj2i_small.jpg"],"../assets/hero_iphone15pro__i70z9oz3hj2i_small.jpg"],"_css_loader":"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\font\\SanFranciscoFont-master\\SanFranciscoDisplay-Regular.otf":[["SanFranciscoDisplay-Regular.b5dc36f2.otf","../font/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"../font/SanFranciscoFont-master/SanFranciscoDisplay-Regular.otf"],"./..\\assets\\hero_iphone15pro__i70z9oz3hj2i_small.jpg":[["hero_iphone15pro__i70z9oz3hj2i_small.036bc19a.jpg","../assets/hero_iphone15pro__i70z9oz3hj2i_small.jpg"],"../assets/hero_iphone15pro__i70z9oz3hj2i_small.jpg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56419" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63445" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -341,5 +341,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/custom.18d3a4a7.js.map
