@@ -12025,13 +12025,6 @@ footer {
   justify-content: start;
 }
 
-.footer-box {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
 .footer-col {
   flex-basis: 25%;
 }
