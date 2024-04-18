@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -142,7 +142,7 @@ function getBaseURL(url) {
 }
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 function updateLink(link) {
   var newLink = link.cloneNode();
@@ -168,11 +168,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../css/style.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../css/style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\assets\\applelogo.svg":[["applelogo.953ce47d.svg","../assets/applelogo.svg"],"../assets/applelogo.svg"],"./..\\assets\\search.svg":[["search.958f0b2a.svg","../assets/search.svg"],"../assets/search.svg"],"./..\\assets\\bag.svg":[["bag.2785b218.svg","../assets/bag.svg"],"../assets/bag.svg"],"./..\\pictures-large\\hero_iphone15pro__large.jpeg":[["hero_iphone15pro__large.dcb7d2db.jpeg","../pictures-large/hero_iphone15pro__large.jpeg"],"../pictures-large/hero_iphone15pro__large.jpeg"],"./..\\pictures-large\\hero_iphone15_larger.jpeg":[["hero_iphone15_larger.6f73c8cc.jpeg","../pictures-large/hero_iphone15_larger.jpeg"],"../pictures-large/hero_iphone15_larger.jpeg"],"./..\\pictures-large\\hero_macbook_air_m3_larger.jpeg":[["hero_macbook_air_m3_larger.7852b8c8.jpeg","../pictures-large/hero_macbook_air_m3_larger.jpeg"],"../pictures-large/hero_macbook_air_m3_larger.jpeg"],"./..\\picture-medium\\announcement-card\\promo_wwdc24_announce__fv0p5miwnjiq_medium.jpg":[["promo_wwdc24_announce__fv0p5miwnjiq_medium.5679c5c3.jpg","../picture-medium/announcement-card/promo_wwdc24_announce__fv0p5miwnjiq_medium.jpg"],"../picture-medium/announcement-card/promo_wwdc24_announce__fv0p5miwnjiq_medium.jpg"],"./..\\picture-medium\\announcement-card\\promo_macbook_air_m3__e43jegok3wuq_medium.jpg":[["promo_macbook_air_m3__e43jegok3wuq_medium.9dbab6fa.jpg","../picture-medium/announcement-card/promo_macbook_air_m3__e43jegok3wuq_medium.jpg"],"../picture-medium/announcement-card/promo_macbook_air_m3__e43jegok3wuq_medium.jpg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../assets/applelogo.svg":[["applelogo.953ce47d.svg","../assets/applelogo.svg"],"../assets/applelogo.svg"],"./../assets/search.svg":[["search.958f0b2a.svg","../assets/search.svg"],"../assets/search.svg"],"./../assets/bag.svg":[["bag.2785b218.svg","../assets/bag.svg"],"../assets/bag.svg"],"./../pictures-large/hero_iphone15pro__large.jpeg":[["hero_iphone15pro__large.dcb7d2db.jpeg","../pictures-large/hero_iphone15pro__large.jpeg"],"../pictures-large/hero_iphone15pro__large.jpeg"],"./../picture_small/hero_iphone15pro_small.jpg":[["hero_iphone15pro_small.c3a64dca.jpg","../picture_small/hero_iphone15pro_small.jpg"],"../picture_small/hero_iphone15pro_small.jpg"],"./../pictures-large/hero_iphone15_larger.jpeg":[["hero_iphone15_larger.6f73c8cc.jpeg","../pictures-large/hero_iphone15_larger.jpeg"],"../pictures-large/hero_iphone15_larger.jpeg"],"./../picture_small/hero_iphone15_announce_small.jpeg":[["hero_iphone15_announce_small.2923f339.jpeg","../picture_small/hero_iphone15_announce_small.jpeg"],"../picture_small/hero_iphone15_announce_small.jpeg"],"./../pictures-large/hero_macbook_air_m3_larger.jpeg":[["hero_macbook_air_m3_larger.7852b8c8.jpeg","../pictures-large/hero_macbook_air_m3_larger.jpeg"],"../pictures-large/hero_macbook_air_m3_larger.jpeg"],"./../picture_small/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg":[["hero_macbook_air_m3__cp4t7pn8zqaa_small.029efd2e.jpg","../picture_small/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg"],"../picture_small/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg"],"./../picture-medium/announcement-card/wwdc/promo_wwdc24_announce__fv0p5miwnjiq_large.jpg":[["promo_wwdc24_announce__fv0p5miwnjiq_large.a000c552.jpg","../picture-medium/announcement-card/wwdc/promo_wwdc24_announce__fv0p5miwnjiq_large.jpg"],"../picture-medium/announcement-card/wwdc/promo_wwdc24_announce__fv0p5miwnjiq_large.jpg"],"./../picture-medium/announcement-card/watch/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg":[["promo_apple_watch_series_9_order__b3u85rm9zf6u_large.2d0c9456.jpg","../picture-medium/announcement-card/watch/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg"],"../picture-medium/announcement-card/watch/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg"],"./../picture-medium/announcement-card/ipad/promo_ipad__fioegapg12qi_large (1).jpg":[["promo_ipad__fioegapg12qi_large (1).608989db.jpg","../picture-medium/announcement-card/ipad/promo_ipad__fioegapg12qi_large (1).jpg"],"../picture-medium/announcement-card/ipad/promo_ipad__fioegapg12qi_large (1).jpg"],"./../picture-medium/announcement-card/airpod/promo_airpods_pro_order__d8xv36p4uwae_large.jpg":[["promo_airpods_pro_order__d8xv36p4uwae_large.a5cfee59.jpg","../picture-medium/announcement-card/airpod/promo_airpods_pro_order__d8xv36p4uwae_large.jpg"],"../picture-medium/announcement-card/airpod/promo_airpods_pro_order__d8xv36p4uwae_large.jpg"],"./../picture-medium/announcement-card/card/tile__cauwwcyyn9hy_large.jpg":[["tile__cauwwcyyn9hy_large.605db5a6.jpg","../picture-medium/announcement-card/card/tile__cauwwcyyn9hy_large.jpg"],"../picture-medium/announcement-card/card/tile__cauwwcyyn9hy_large.jpg"],"./../picture-medium/announcement-card/trade/promo_iphone_tradein__bugw15ka691e_large.jpg":[["promo_iphone_tradein__bugw15ka691e_large.1f0491c0.jpg","../picture-medium/announcement-card/trade/promo_iphone_tradein__bugw15ka691e_large.jpg"],"../picture-medium/announcement-card/trade/promo_iphone_tradein__bugw15ka691e_large.jpg"],"_css_loader":"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -197,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54906" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54052" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -341,5 +341,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../../opt/homebrew/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/style.ff6b9f54.js.map

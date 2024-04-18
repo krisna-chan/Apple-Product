@@ -25,12 +25,25 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    
     z-index: 1400;
     height: 4.4rem;
-    background-color: rgba(218, 218, 218, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(2rem);
 }
-
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #bcbcbc;
+    --bs-nav-link-hover-color: #bcbcbc;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
 
 .nav-list{
     list-style: none;
@@ -48,7 +61,7 @@ header{
     margin : 0 auto;
     margin-top: 10px;
     font-size: 1.4rem;
-    color: #000000;
+    color: #ffffff;
     padding: 0 1rem;
     transition: opacity .5s;
 }
@@ -96,8 +109,7 @@ header{
 
 // ------------------------------iPHONE 15 PRO ----------------------------------------------------------------
 .hero{
-    background-size: cover; 
-    background-size: 800px; 
+    background-size: cover;  
     height: 120.2rem;
     background-size: auto 73.6rem;
     border-top:.6rem solid #ffffff;
@@ -113,18 +125,31 @@ header{
     background-position: center;
     background-size: cover;
     height: 600px;
-    
 }
 .iphone-15-Pro{
     border-top:none;
 }
-
+.iphone-15-Pro-small{
+    background: url(../picture_small/hero_iphone15pro_small.jpg);
+    background-repeat: no-repeat;
+    margin-top: 4.4rem;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    border-top: none;
+    }
 // ----------------------------iPhone 15 Pro-----------------------------------
 
 
 
 .iPhone-15{
     background: url('../pictures-large/hero_iphone15_larger.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.iPhone-15-small{
+    background: url(../picture_small/hero_iphone15_announce_small.jpeg);
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -147,7 +172,13 @@ header{
 }
 .macbook-container{
     margin-top : 100px; 
-
+.Macbook-small{
+    background: url("../picture_small/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+}
 
     .macbook-title{
         color: #000;
@@ -198,25 +229,25 @@ header{
     justify-content: space-around;
 }
         // ----------------wwdc-------------------------------
-.wwdc{
-    background : url(../picture-medium/announcement-card/promo_wwdc24_announce__fv0p5miwnjiq_medium.jpg);
-    background-size : cover;
-    background-position: center;
-    padding : auto ;
-    height: 590px;
-    width:900px;
-    margin : 10px 10px;
+// .wwdc{
+//     background : url(../picture-medium/announcement-card/promo_wwdc24_announce__fv0p5miwnjiq_medium.jpg);
+//     background-size : cover;
+//     background-position: center;
+//     padding : auto ;
+//     height: 590px;
+//     width:900px;
+//     margin : 10px 10px;
     
-}
-.mac{
-    background: url(../picture-medium/announcement-card/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
-    background-size : cover;
-    background-position: center;
-    padding : auto ;
-    height: 590px;
-    width: 900px;
-    margin : 10px 10px;
-}
+// }
+// .mac{
+//     background: url(../picture-medium/announcement-card/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+//     background-size : cover;
+//     background-position: center;
+//     padding : auto ;
+//     height: 590px;
+//     width: 900px;
+//     margin : 10px 10px;
+// }
 
 // ----------------------------foooter------------------------------------
 .footer-col {
@@ -267,3 +298,129 @@ header{
         display: none;
     }
 }
+
+// =======================CARD SECTION==========================================
+.d-md-flex{
+    justify-content: center;
+}
+.wwdc{
+    background: url(../picture-medium/announcement-card/wwdc/promo_wwdc24_announce__fv0p5miwnjiq_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+    width: 100%;
+    
+}
+.apple-watch{
+    background: url(../picture-medium/announcement-card/watch/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+    width: 100%;
+    
+}
+.ipad{
+    background: url("../picture-medium/announcement-card/ipad/promo_ipad__fioegapg12qi_large\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    
+}
+.airpods{
+    background: url(../picture-medium/announcement-card/airpod/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    
+}
+.card{
+    background: url(../picture-medium/announcement-card/card/tile__cauwwcyyn9hy_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    
+}
+.trade-in{
+    background: url(../picture-medium/announcement-card/trade/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+.wwdc{
+    .lead{
+        font-size: 20px;
+        // display: flex;
+        // align-items:flex-end;
+    }
+}
+.display-5 {
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+.airpods{
+    .my-3{
+        color: white !important;
+    }
+}
+
+// ==================== media queries =================================================================
+.iphone-15-Pro{
+    display: block;
+}
+.iphone-15-Pro-small{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .iphone-15-Pro-small{
+        display: block;
+    }
+    .iphone-15-Pro{
+        display: none;
+    }
+}
+.iPhone-15{
+    display: block;
+}
+.iPhone-15-small{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .iPhone-15-small{
+        display: block;
+    }
+    .iPhone-15{
+        display: none;
+    }
+}
+.Macbook{
+    display: block;
+}
+.Macbook-small{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .Macbook-small{
+        display: block;
+    }
+    .Macbook{
+
+        display : none;
+    }
+    }
+// =================================================================================================
+
