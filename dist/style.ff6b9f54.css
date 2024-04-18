@@ -11873,7 +11873,7 @@ header {
   width: 100%;
   z-index: 1400;
   height: 4.4rem;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(218, 218, 218, 0.8);
   backdrop-filter: blur(2rem);
 }
 
@@ -11893,7 +11893,7 @@ header {
   margin: 0 auto;
   margin-top: 10px;
   font-size: 1.4rem;
-  color: #fff;
+  color: #000000;
   padding: 0 1rem;
   transition: opacity 0.5s;
 }
@@ -11945,6 +11945,7 @@ header {
   margin-top: 4.4rem;
   background-position: center;
   background-size: cover;
+  height: 600px;
 }
 
 .iphone-15-Pro {
@@ -11954,6 +11955,8 @@ header {
 .iPhone-15 {
   background: url("/hero_iphone15_larger.6f73c8cc.jpeg");
   background-position: center;
+  background-size: cover;
+  height: 700px;
 }
 
 .iPhone-15-heading {
@@ -11969,8 +11972,10 @@ header {
 }
 
 .Macbook {
-  background: url("/hero_macbook_air_m3_larger.7852b8c8.jpeg");
+  background: url(/hero_macbook_air_m3_larger.7852b8c8.jpeg);
   background-position: center;
+  background-size: cover;
+  height: 900px;
 }
 
 .macbook-container {
@@ -12017,12 +12022,29 @@ header {
   margin-left: 2.6rem;
 }
 
-footer {
+.top-sec {
   display: flex;
-  background-color: #f2f2f2;
-  padding: 20px 0px;
-  text-align: start;
-  justify-content: start;
+  justify-content: space-around;
+}
+
+.wwdc {
+  background: url(/promo_wwdc24_announce__fv0p5miwnjiq_medium.5679c5c3.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: auto;
+  height: 590px;
+  width: 900px;
+  margin: 10px 10px;
+}
+
+.mac {
+  background: url(/promo_macbook_air_m3__e43jegok3wuq_medium.9dbab6fa.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: auto;
+  height: 590px;
+  width: 900px;
+  margin: 10px 10px;
 }
 
 .footer-col {
@@ -12056,13 +12078,9 @@ footer {
   font-size: 13px;
 }
 
-footer {
-  padding: 20px;
-  margin: 20px;
-}
-
-.footer-box {
-  border-bottom: 1px solid gray;
+.column-footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .accordion {

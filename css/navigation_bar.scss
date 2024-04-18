@@ -1,0 +1,87 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2,2rem ;
+}
+body{
+    background-color: white;
+}
+//-----------------------------navigation-----------------------------------
+header{
+    font-weight: 20;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0,0,0,.8);
+    backdrop-filter: blur(2rem);
+}
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    margin : 0 auto;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: black;
+    padding: 0 1rem;
+    transition: opacity .5s;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-apple{
+    color: black;
+    margin-right: 60px;
+    margin:6px 6px;
+    margin-top: -1px;
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(../assets/applelogo.svg)center no-repeat ;
+}
+
+#search-bar{
+    color: black;
+    margin:6px 6px;
+    margin-top: -1px;
+    width: 1.6rem;    
+    height: 4.4rem;
+    background: url(../assets/search.svg) center no-repeat;
+
+}
+#bag-bar{
+    margin:6px 6px;
+    margin-top: -1px;
+    display: flex;
+    width: 1.6rem;
+    height: 4.4rem;
+    color: black;
+    background: url(../assets/bag.svg) center no-repeat;
+}

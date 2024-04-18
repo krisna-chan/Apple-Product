@@ -27,7 +27,7 @@ header{
     width: 100%;
     z-index: 1400;
     height: 4.4rem;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(218, 218, 218, 0.8);
     backdrop-filter: blur(2rem);
 }
 
@@ -48,7 +48,7 @@ header{
     margin : 0 auto;
     margin-top: 10px;
     font-size: 1.4rem;
-    color: #fff;
+    color: #000000;
     padding: 0 1rem;
     transition: opacity .5s;
 }
@@ -112,6 +112,7 @@ header{
     margin-top: 4.4rem;
     background-position: center;
     background-size: cover;
+    height: 600px;
     
 }
 .iphone-15-Pro{
@@ -125,6 +126,8 @@ header{
 .iPhone-15{
     background: url('../pictures-large/hero_iphone15_larger.jpeg');
     background-position: center;
+    background-size: cover;
+    height: 700px;
 }
 .iPhone-15-heading{
     color: #000;
@@ -137,11 +140,14 @@ header{
 }
 // -----------------------------Mac Book-----------------------------------
 .Macbook{
-    background: url('../pictures-large/hero_macbook_air_m3_larger.jpeg');
+    background: url(../pictures-large/hero_macbook_air_m3_larger.jpeg);
     background-position: center;
+    background-size: cover;
+    height: 900px;
 }
 .macbook-container{
     margin-top : 100px; 
+
 
     .macbook-title{
         color: #000;
@@ -182,61 +188,78 @@ header{
 .cta-link:nth-child(2){
     margin-left: 2.6rem;
 }
-// ----------------------------foooter------------------------------------
-footer {
-    display: flex;
-    background-color: #f2f2f2;
-    padding: 20px 0px;
-    text-align: start; 
-    justify-content:start;
 
-  }
-  
-  .footer-col {
+
+
+// ----------------------cards section-------------------------------------
+    // -----------------------top-------------------------------------
+.top-sec{
+    display: flex;
+    justify-content: space-around;
+}
+        // ----------------wwdc-------------------------------
+.wwdc{
+    background : url(../picture-medium/announcement-card/promo_wwdc24_announce__fv0p5miwnjiq_medium.jpg);
+    background-size : cover;
+    background-position: center;
+    padding : auto ;
+    height: 590px;
+    width:900px;
+    margin : 10px 10px;
+    
+}
+.mac{
+    background: url(../picture-medium/announcement-card/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+    background-size : cover;
+    background-position: center;
+    padding : auto ;
+    height: 590px;
+    width: 900px;
+    margin : 10px 10px;
+}
+
+// ----------------------------foooter------------------------------------
+.footer-col {
     flex-basis: 25%;
-  }
-  
-  .footer-col h4 {
+}
+
+.footer-col h4 {
     margin-bottom: 10px;
     font-weight: bold;
-  }
-  
-  .footer-col ul {
+}
+
+.footer-col ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .footer-col li {
+}
+
+.footer-col li {
     margin-bottom: 6px;
-  }
-  
-  .footer-col a {
+}
+
+.footer-col a {
     color: #333;
     text-decoration: none;
-  }
-  
-  .footer-col a:hover {
-    color: #000;
-  }
-  
+}
 
-  .footer-header{
+.footer-col a:hover {
+    color: #000;
+}
+
+
+.footer-header{
     font-size:13px;
-  }
-  footer{
-    padding:20px;
-    margin:20px;
-  }
-  
-.footer-box{
-    border-bottom: 1px solid gray;
+}
+.column-footer{
+    display: flex;
+    justify-content: space-between;
 }
 // -----------phone footer --------------------------------
 .accordion{
     display: none;
 }
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .accordion{
         display: block;
     }
