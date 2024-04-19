@@ -11942,6 +11942,35 @@ header {
   background: url(/bag.2785b218.svg) center no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    height: 4.8rem;
+    transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+  }
+  header .container {
+    padding: 0;
+  }
+  .iphone-15-Pro {
+    margin-top: 4.8rem;
+  }
+  nav-list {
+    margin-top: 0;
+  }
+  .nav-list-mobile {
+    display: flex;
+  }
+  .nav-item {
+    width: 4.8rem;
+    height: 4.8rem;
+    justify-content: center;
+  }
+  .nav-item-hidden {
+    display: none;
+  }
+  .nav-list-larger {
+    display: none;
+  }
+}
 .hero {
   background-size: cover;
   height: 120.2rem;
@@ -12008,20 +12037,18 @@ header {
   height: 900px;
 }
 
-.macbook-container {
-  margin-top: 100px;
-}
-.macbook-container .Macbook-small {
-  background: url("/hero_macbook_air_m3__cp4t7pn8zqaa_small.029efd2e.jpg");
+.Macbook-small {
+  background: url(/hero_macbook_air_m3__cp4t7pn8zqaa_small.029efd2e.jpg);
   background-position: center;
   background-size: cover;
   height: 700px;
-  background-repeat: no-repeat;
 }
-.macbook-container .macbook-title {
+
+.macbook-title {
   color: #000;
 }
-.macbook-container .macbook-subtitle {
+
+.macbook-subtitle {
   color: #000;
 }
 
@@ -12144,6 +12171,9 @@ header {
   height: 450px;
   width: 100%;
 }
+.ipad .my-3 {
+  margin-top: -0.4rem !important;
+}
 
 .airpods {
   background: url(/promo_airpods_pro_order__d8xv36p4uwae_large.a5cfee59.jpg);
@@ -12175,6 +12205,9 @@ header {
 .wwdc .lead {
   font-size: 20px;
 }
+.wwdc .my-3 {
+  margin-top: 30rem !important;
+}
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
@@ -12186,6 +12219,82 @@ header {
   color: white !important;
 }
 
+.wwdc-small {
+  background: url(/promo_wwdc24_announce__fv0p5miwnjiq_small.bcef5aa4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 450px;
+  width: 100%;
+}
+
+.apple-watch-small {
+  background: url(/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.6baf3794.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 450px;
+  width: 100%;
+}
+
+.ipad-small {
+  background: url(/promo_ipad__fioegapg12qi_small.5cdb2ff7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+.ipad-small .my-3 {
+  margin-top: -0.4rem !important;
+}
+
+.airpods-small {
+  background: url(/promo_airpods_pro_order__d8xv36p4uwae_small.e9e6c8cb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
+.card-small {
+  background: url(/tile__cauwwcyyn9hy_small.e96aa0ee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
+.trade-in-small {
+  background: url(/promo_iphone_tradein__bugw15ka691e_small.fbeb375f.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
+.wwdc-small .lead {
+  font-size: 20px;
+}
+.wwdc-small .my-3 {
+  margin-top: 30rem !important;
+}
+
+.display-5 {
+  font-size: calc(1.425rem + 2.1vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.airpods-small .my-3 {
+  color: white !important;
+}
+
 .iphone-15-Pro {
   display: block;
 }
@@ -12194,14 +12303,6 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  .iphone-15-Pro-small {
-    display: block;
-  }
-  .iphone-15-Pro {
-    display: none;
-  }
-}
 .iPhone-15 {
   display: block;
 }
@@ -12210,19 +12311,19 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  .iPhone-15-small {
-    display: block;
-  }
-  .iPhone-15 {
-    display: none;
-  }
-}
 .Macbook {
   display: block;
 }
 
 .Macbook-small {
+  display: none;
+}
+
+.pc-card-container {
+  display: block;
+}
+
+.mobile-card-container {
   display: none;
 }
 
@@ -12232,6 +12333,33 @@ header {
   }
   .Macbook {
     display: none;
+  }
+  .iPhone-15-small {
+    display: block;
+  }
+  .iPhone-15 {
+    display: none;
+  }
+  .iphone-15-Pro-small {
+    display: block;
+  }
+  .iphone-15-Pro {
+    display: none;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .subheading {
+    font-size: 19px;
+  }
+  .cta-link {
+    font-size: 14px;
+  }
+  .pc-card-container {
+    display: none;
+  }
+  .mobile-card-container {
+    display: block;
   }
 }
 

@@ -98,8 +98,68 @@ header{
 
 // -----------------------------MOBILE VERSION-----------------------------------
 
+@media screen and (max-width: 768px)
+{
+    header{
+        height: 4.8rem;
+        transition: background .36s cubic-bezier(0.32, 0.08 , 0.24 , 1),
+                    height  .56s cubic-bezier(0.32, 0.08 , 0.24 , 1) ;
+    }
+    header .container{
+        padding : 0;
+    }
+    .iphone-15-Pro{
+        margin-top : 4.8rem;
+    }
+    nav-list{
+        margin-top:  0;
 
+    }
+    .nav-list-mobile{
+        display: flex;
+    }
+    .nav-item{
+        width: 4.8rem;
+        height: 4.8rem;
+        justify-content: center;
+    }
+    .nav-item-hidden{
+        display: none;
+    }
+    .nav-list-larger{
+        display: none;
+    }
+    // mobile-menu{
+    //     position: relative;
+    //     z-index: 1400;
+    //     width: 100%;
+    //     height: 100%;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     justify-content: center;
+    //     cursor: pointer;
 
+    // }
+    // .line{
+    //     position: absolute;
+    //     width: 1.7rem;
+    //     height: 1px;
+    //     background-color: #fff;
+    //     cursor: pointer;
+    // }
+    // .line-top{
+    //     position: absolute;
+    //     width: 1.7rem;
+    //     height: 1px;
+    //     background-color: #fff;
+    // }
+    // .line-bottom{
+    //     position: absolute;
+    //     width: 1.7rem;
+    //     height: 1px;
+    //     background-color: #fff;
+    // }
+}
 
 // ------------------------------END OF NAVIGATION----------------------------------
 
@@ -170,14 +230,11 @@ header{
     background-size: cover;
     height: 900px;
 }
-.macbook-container{
-    margin-top : 100px; 
 .Macbook-small{
-    background: url("../picture_small/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg");
+    background: url(../picture_small/hero_macbook_air_m3__cp4t7pn8zqaa_small.jpg);
     background-position: center;
     background-size: cover;
     height: 700px;
-    background-repeat: no-repeat;
 }
 
     .macbook-title{
@@ -186,7 +243,6 @@ header{
     .macbook-subtitle{
         color: #000;
     }
-}
 
 // -----------------------------Mac Book-----------------------------------
 .title{
@@ -330,7 +386,9 @@ header{
     background-size: cover;
     height: 450px;
     width: 100%;
-    
+    .my-3{
+        margin-top: -.4rem  !important;
+    }
 }
 .airpods{
     background: url(../picture-medium/announcement-card/airpod/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
@@ -361,8 +419,9 @@ header{
 .wwdc{
     .lead{
         font-size: 20px;
-        // display: flex;
-        // align-items:flex-end;
+    }
+    .my-3{
+        margin-top: 30rem !important;
     }
 }
 .display-5 {
@@ -375,6 +434,83 @@ header{
         color: white !important;
     }
 }
+.wwdc-small{
+    background: url(../picture-medium/announcement-card/wwdc/promo_wwdc24_announce__fv0p5miwnjiq_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+    width: 100%;
+    
+}
+// =================================card mobile style========================================================
+.apple-watch-small{
+    background: url(../picture-medium/announcement-card/watch/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+    width: 100%;
+    
+}
+.ipad-small{
+    background: url(../picture-medium/announcement-card/ipad/promo_ipad__fioegapg12qi_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    .my-3{
+        margin-top: -.4rem  !important;
+    }
+}
+.airpods-small{
+    background: url(../picture-medium/announcement-card/airpod/promo_airpods_pro_order__d8xv36p4uwae_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    
+}
+.card-small{
+    background: url(../picture-medium/announcement-card/card/tile__cauwwcyyn9hy_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    
+}
+.trade-in-small{
+    background: url(../picture-medium/announcement-card/trade/promo_iphone_tradein__bugw15ka691e_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+.wwdc-small{
+    .lead{
+        font-size: 20px;
+    }
+    .my-3{
+        margin-top: 30rem !important;
+    }
+}
+.display-5{
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+.airpods-small{
+    .my-3{
+        color: white !important;
+    }
+}
+// =================================card mobile style========================================================
 
 // ==================== media queries =================================================================
 .iphone-15-Pro{
@@ -383,33 +519,22 @@ header{
 .iphone-15-Pro-small{
     display: none;
 }
-@media screen and (max-width:768px){
-    .iphone-15-Pro-small{
-        display: block;
-    }
-    .iphone-15-Pro{
-        display: none;
-    }
-}
 .iPhone-15{
     display: block;
 }
 .iPhone-15-small{
     display: none;
 }
-
-@media screen and (max-width: 768px){
-    .iPhone-15-small{
-        display: block;
-    }
-    .iPhone-15{
-        display: none;
-    }
-}
 .Macbook{
     display: block;
 }
 .Macbook-small{
+    display: none;
+}
+.pc-card-container{
+    display: block;
+}
+.mobile-card-container{
     display: none;
 }
 
@@ -421,6 +546,34 @@ header{
 
         display : none;
     }
+    .iPhone-15-small{
+        display: block;
+    }
+    .iPhone-15{
+        display: none;
+    }
+    .iphone-15-Pro-small{
+        display: block;
+    }
+    .iphone-15-Pro{
+        display: none;
+    }
+    .heading{
+        font-size: 32px;
+    }
+    .subheading{
+        font-size: 19px;
+    }
+    .cta-link{
+        font-size: 14px;
+    }
+    .pc-card-container{
+        display: none;
+    }
+    .mobile-card-container{
+        display: block;
+    }
     }
 // =================================================================================================
 
+// ===================ADVERTISEMENT================================
