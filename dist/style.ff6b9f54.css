@@ -11910,6 +11910,7 @@ header {
   color: #ffffff;
   padding: 0 1rem;
   transition: opacity 0.5s;
+  white-space: nowrap;
 }
 
 .nav-link:hover {
@@ -12211,7 +12212,7 @@ header {
 
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
-  font-weight: 300;
+  font-weight: 600 !important;
   line-height: 1.2;
 }
 
