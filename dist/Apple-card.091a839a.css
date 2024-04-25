@@ -11928,34 +11928,21 @@ header {
   background: url(/bag.2785b218.svg) center no-repeat;
 }
 
-@media screen and (max-width: 768px) {
-  header {
-    height: 4.8rem;
-    transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1), height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
-  }
-  header .container {
-    padding: 0;
-  }
-  nav-list {
-    margin-top: 0;
-  }
-  .nav-list-mobile {
-    display: flex;
-  }
-  .nav-item {
-    width: 4.8rem;
-    height: 4.8rem;
-    justify-content: center;
-  }
-  .nav-item-hidden {
-    display: none;
-  }
-  .nav-list-larger {
-    display: none;
-  }
-}
-body {
-  background-color: rgba(111, 111, 111, 0);
+.btn {
+  border-radius: 30px;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-bottom: 20px;
 }
 
 .hero {
@@ -11968,7 +11955,7 @@ body {
   background-position: center;
 }
 
-.iphone-15-Pro {
+.iphone-card {
   background: url(/photo-1614851099362-9adf73ccebe9.8adc9368.avif);
   background-repeat: no-repeat;
   margin-top: 4.4rem;
@@ -11977,7 +11964,7 @@ body {
   height: 100%;
 }
 
-.iphone-15-Pro {
+.iphone-card {
   border-top: none;
 }
 
@@ -11999,56 +11986,6 @@ body {
   background: url(/2560px-Apple_Card.svg.7f788678.png) center no-repeat;
 }
 
-._card {
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid rgb(166, 162, 162);
-  display: relative;
-  padding-top: 80px;
-}
-
-.card-container {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  position: relative;
-}
-
-.card-title {
-  font-size: 50px;
-  font-weight: 500;
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.content {
-  font-size: 21px;
-  line-height: 1.381;
-  font-weight: 600;
-  letter-spacing: 0.011em;
-  text-align: center;
-}
-
-.text {
-  margin-left: 520px;
-  right: 0px;
-  left: 0px;
-  position: absolute;
-}
-
-.subheading {
-  color: #000000;
-}
-
 .heading-logo {
   display: block;
   margin-left: auto;
@@ -12056,30 +11993,11 @@ img {
   width: 7.6rem;
 }
 
-.plus-sign {
-  display: block;
-  margin-left: 95%;
-  margin-top: -30px;
-  width: 30px;
-  height: auto;
-  cursor: pointer;
-}
-
-.btn {
-  border-radius: 30px;
-  font-size: 17px;
-  line-height: 1.17648;
-  font-weight: 400;
-  letter-spacing: -0.022em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  border-style: solid;
-  border-width: 1px;
-  min-width: 28px;
-  padding-left: 21px;
-  padding-right: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  margin-bottom: 20px;
+.iphone-card-background {
+  background: url(/photo-1614851099362-9adf73ccebe9.8adc9368.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=/Apple-card.091a839a.css.map */
