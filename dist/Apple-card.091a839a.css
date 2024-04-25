@@ -11846,12 +11846,22 @@ textarea.form-control-lg {
 }
 header {
   font-weight: 20;
-  position: fixed;
   top: 0;
   width: 100%;
+  position: fixed;
   z-index: 1400;
   height: 4.4rem;
-  background-color: whitesmoke;
+  background-color: whitesmoke transparent;
+  backdrop-filter: blur(2rem);
+}
+
+.buttom-nav-container {
+  font-weight: 20;
+  top: 0;
+  width: 100%;
+  z-index: 1500;
+  height: 4.4rem;
+  background-color: whitesmoke transparent;
   backdrop-filter: blur(2rem);
 }
 
