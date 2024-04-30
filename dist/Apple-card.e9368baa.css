@@ -1,0 +1,33 @@
+/* ==============GLOBAL SECTION==================== */
+
+*{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* =============HERO SECTION================== */
+.hero-background{
+    background: url("/built_for_iphone__d59h2lf8xtiu_large.21ead275.jpg");
+}
+
+.hero-logo{
+    width: 100px;
+    margin: auto;
+}
+
+.hero-header{
+    h1{
+        font-size: 4rem;
+    }
+}
+
+
+
+/*# sourceMappingURL=/Apple-card.e9368baa.css.map */
