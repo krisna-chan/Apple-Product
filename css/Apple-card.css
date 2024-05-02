@@ -54,23 +54,8 @@
 
 .card{
     border: 1px;
-    .iphone-card{
-        position: relative ;
-        padding: 100px 100px 0px 100px;
-    }
     h2{
-        position: absolute;
-        left: calc(50% + 12px); 
-        top : 145px;;
-        font-size: 2.2rem;
-    }
-}
-.cashback-card{
-    h1{
-        bottom: 15%;
-        text-align: start;
-        position: absolute;
-        color: white;
+        margin-left: calc(50% + 14px);
     }
     h3{
         bottom: 7%;
@@ -79,6 +64,11 @@
         color: #a4f07e;
     }
     .dollar-sign{
-        margin-right: -700px;
+        margin-right: -50%;
+    }
+    .iphone-card{
+        h2{
+            left : 0px ;
+        }
     }
 }
